@@ -17,4 +17,4 @@ setInterval(() => {
 
   client.publish('device/1/status', JSON.stringify(payload));
   console.log('Published:', payload);
-}, 3000);
+}, 15000);
